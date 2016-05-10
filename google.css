@@ -1,0 +1,27 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	cursor: auto;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+}
+
+#header {
+	float: right;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	color: gray;
+}
