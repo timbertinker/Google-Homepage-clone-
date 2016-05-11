@@ -17,11 +17,56 @@ a {
 	float: right;
 }
 
-ul {
-	list-style-type: none;
-}
-
 li {
+	list-style-type: none;
 	display: inline-block;
 	color: gray;
+	margin: 9px;
+	position: relative;
+	right: 10px;
+	top: -10px;
+}
+
+.topWords {
+	position: relative;
+	top: -10px;
+}
+
+#options {
+	position: relative;
+	top: -7px;
+}
+
+#notifications {
+	position: relative;
+	top: -5px;
+}
+
+#gplus img {
+	border-radius: 20px;
+}
+
+.main {
+	position: relative;
+	top: 190px;
+	left: 535px;
+}
+
+#box {
+	position: relative;
+	right: 170px;
+	height: 35px;
+	width: 600px;
+	border-color: #e5e5e5;
+	border-width: 1px;
+	border-style: solid;
+}
+
+form img {
+	float: left;
+	position: relative;
+	height: 30px;
+	width: 25px;
+	left: 420px;
+	top: 4px;
 }
