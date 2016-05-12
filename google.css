@@ -70,3 +70,37 @@ form img {
 	left: 420px;
 	top: 4px;
 }
+
+.button {
+	border: none;
+	padding: 10px 20px 10px 20px;
+	font-weight: bold;
+	color: #787878;
+	background-color: #f0f0f0;
+}
+
+.button:hover {
+	border: solid .1px;
+	color: black;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	border-top: solid #e8e8e8 1px;
+	background-color: #f0f0f0;
+	height: 40px;
+	width: 100%;
+	line-height: 45px;
+	font-size: 1em;
+}
+
+.footer_left {
+	float: left;
+	margin-left: 20px;
+}
+
+.footer_right {
+	float: right;
+	margin-right: 20px;
+}
